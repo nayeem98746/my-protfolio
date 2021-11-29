@@ -1,0 +1,36 @@
+.banner-container{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 10%;
+    min-height: fit-content;
+    background-image: url(../../../Items/banner\ .jpg);
+    background-repeat: no-repeat;
+}
+.helight-text{
+    color:whitesmoke;
+    font-weight: bold;
+}
+.helight-text:hover{
+    color: hotpink;
+}
+.hire-btn{
+    background-color: gray;
+    color: whitesmoke;
+    border-radius: 20px;
+    padding-left:10px;
+    padding-right: 10px;
+    margin-right: 20px;
+    font-weight: bold;
+}
+.resume-btn{
+    background-color: goldenrod;
+    color: whitesmoke;
+    border-radius: 20px;
+    padding-left:10px;
+    padding-right: 10px;
+    margin-right: 20px;
+    font-weight: bold;
+
+}
