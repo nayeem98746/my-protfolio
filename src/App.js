@@ -5,6 +5,8 @@ import Home from './component/Home/Home/Home';
 import Contract from './component/Contract/Contract';
 import Header from './component/Home/Header/Header';
 import About from './component/About/About';
+import Information from './component/Information/Information';
+import Blogs from './component/Blogs/Blogs';
 
 
 function App() {
@@ -16,7 +18,9 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
         <Route path="/contract" element={<Contract />} />
+        <Route path="/information/:project" element={<Information />} />
         <Route path="/about" element={<About />} />
+        <Route path="/blog" element={<Blogs />} />
       </Routes>
       </Router>
       
